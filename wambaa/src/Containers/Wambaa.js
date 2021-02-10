@@ -19,9 +19,10 @@ function Wambaa() {
                 <Home/>
                 <Servicos/>
                 <SobreNos/>
+                <Contactos/>
 
         </Router>
     )
 }
 
-export default Wambaa
+export default Wambaa;

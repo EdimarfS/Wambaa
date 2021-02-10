@@ -1,32 +1,57 @@
 import React from 'react';
 import Logo from '../Componets/Logo/Logo';
 import './Navigation.css';
-import { Link } from 'react-router-dom';
+import { Link, animateScroll as scroll } from "react-scroll";
+
 
 function Navigation() {
     return (
         <nav className="nav-container">
-            <Link to="/">
             <Logo/>
-            </Link>
             <ul className="list-style">
-                <Link to="/servicos">
+
                 <li>
+                <Link
+                activeClass="active"
+                to="Servicos"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                 >
                     Serviços
-                </li>
                 </Link>
+                </li>
 
-                <Link to="/sobreNos">
+
+ 
                 <li>
-                   Sobre nós
-                </li>
+                <Link
+                activeClass="active"
+                to="SobreNos"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                 >
+                    Sobre nós
                 </Link>
-
-                <Link to="/contactos">
+                  
+                </li>
                 <li className="contacts-style"> 
+                <Link
+                activeClass="active"
+                to="Contactos"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                 >
                     Contactos
-                </li>
                 </Link>
+                    
+                </li>
+
             </ul>
         </nav>
     )

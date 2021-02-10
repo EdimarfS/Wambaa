@@ -1,10 +1,12 @@
 import React from 'react';
 import './Button.css';
 
-export default function Button() {
+export default function Button({onClick, label}) {
     return (
-        <button className="btn-style">
-            <p>Button</p>
+        <button 
+        onClick={onClick}
+        className="btn-style">
+            <p>{label}</p>
         </button>
     )
 }

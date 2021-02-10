@@ -5,6 +5,7 @@
  align-items: center;
  min-height: 10vh;
  background-color: hsl(0, 0%, 100%);
+ border-bottom: 0.30px solid #e2e2e2;
  /* font-weight: bold; */
 
 }
@@ -16,22 +17,11 @@
     list-style: none;
     align-items: center;
     justify-content: space-around;
-}
-
-.list-style a {
-    color: rgb(14, 14, 14);
-    text-decoration: none;
-    font-size: 16px;
-    display: flex;
-    justify-content: space-between;
-
-
+    /* padding: 30px; */
+    /* cursor: pointer; */
 
 }
 
-.contacts-style {
-    color:black;
-    padding: 10px;
-    border: 1.57px solid #FFBE34;
-    border-radius: 25px;
-}
+
+
+

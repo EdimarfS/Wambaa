@@ -25,8 +25,15 @@ export default function Details() {
 
             </div>
             <div className="description-container">
-                <p className="welcome-text">Welcome to Wambaa</p>
-                <p className="header-1">Simple and Fast to buy</p>
+                <p className="welcome-text">Bem-vindos ao Wambaa</p>
+                <p className="header-1">Simples e rápido para 
+                <em
+                style={{ color:'grey', fontSize:30}}
+                
+            
+                > comprar
+                </em>
+                </p>
                 <p className="description-text">
                 Contrary to popular belief, 
                 Lorem Ipsum is not simply random text. 
@@ -42,7 +49,9 @@ export default function Details() {
                 Lorem Ipsum is not simply random text. 
               </p>
             <div className="btn-container"> 
-              <Button/>
+              <Button
+              label="Contactos"
+              />
             </div>
             </div>
             
