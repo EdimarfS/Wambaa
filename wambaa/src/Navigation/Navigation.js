@@ -12,19 +12,19 @@ function Navigation() {
             <ul className="list-style">
                 <Link to="/servicos">
                 <li>
-                    Servicos
+                    Serviços
                 </li>
                 </Link>
 
                 <Link to="/sobreNos">
                 <li>
-                   Sobre Nos
+                   Sobre nós
                 </li>
                 </Link>
 
                 <Link to="/contactos">
-                <li>
-                    Contacts
+                <li className="contacts-style"> 
+                    Contactos
                 </li>
                 </Link>
             </ul>
