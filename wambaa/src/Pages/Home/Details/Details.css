@@ -1,0 +1,32 @@
+.details-container{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    /* width: 80%; */
+    text-align: center;
+    align-items: center;
+}
+
+.welcome-text{
+ color: grey;   
+ text-align: center;
+ font-size: 30px;
+}
+.header-1{
+    color:black;
+    font-size: 50px;
+    font-weight: bold;
+}
+.description-text{
+    color: grey;
+    text-align: center;
+}
+
+
+.logo-style-1 {
+    width: 800px;
+}
+.description-container{
+    font-size: 24px;
+}
+

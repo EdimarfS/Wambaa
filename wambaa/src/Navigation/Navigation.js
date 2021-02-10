@@ -10,7 +10,7 @@ function Navigation() {
             <Logo/>
             </Link>
             <ul className="list-style">
-                <Link to="/servicos" >
+                <Link to="/servicos">
                 <li>
                     Servicos
                 </li>
