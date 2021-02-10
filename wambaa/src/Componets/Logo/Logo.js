@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './Logo.css';
+import logo from '../assets/Wambaa_logo_logotype_monochrome_negative.png'
 
 function Logo() {
     return (
         <div>
-            <p>Wambaa Logo </p>
+            <img 
+            className="logo-style"
+            src={logo} alt="Logo" />
         </div>
     )
 }
