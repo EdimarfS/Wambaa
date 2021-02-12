@@ -2,8 +2,8 @@
 .nav-container{
  display: flex;
  justify-content: space-between;
- padding-right: 10px;
- padding-left: 10px;
+ padding-right: 5%;
+ padding-left: 15px;
  min-height: 10vh;
  background-color: #191919;
  color: white;
@@ -14,9 +14,10 @@
     display: flex;
     width: 40%;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
+    font-size: 20px;
 }
 
 
