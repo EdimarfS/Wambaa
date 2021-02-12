@@ -23,7 +23,7 @@ mão, fique ligado no nosso website e nas nossas rede sociais.</p>
 
           </div>
 
-          <div >
+          <div className="image-container" >
           <img 
           className="logo-style-wambaa"
            src={Logo} alt="Logo" />

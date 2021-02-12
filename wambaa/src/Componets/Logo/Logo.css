@@ -1,6 +1,6 @@
 .logo-style{ 
     font-size: 36px;
     font-family:'Pharma-Bold';
-    src: local('Pharma-Bold'), url(../assets/fonts/Pharma-Bold.otf);
+    src: local('Pharma-Bold'), url(../assets/fonts/Pharma-Bold.woff);
     /* background-color: red; */
 }

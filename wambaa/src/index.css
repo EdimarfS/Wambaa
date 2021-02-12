@@ -1,10 +1,16 @@
 body {
   margin: 0;
-  font-family:'Pharma';
-  src: local('Pharma'), url(./Componets/assets/fonts/Pharma-Regular.otf);
+  font-family:Pharma;
+ }
+
+@font-face{
+  font-family: 'Pharma';
+  src: local('Pharma'), url(./Componets/assets/fonts/Pharma-Regular.woff);
 }
 
+
+
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: Pharma
 }

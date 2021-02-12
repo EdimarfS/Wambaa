@@ -14,7 +14,6 @@
     align-items: center;
     margin-top: 10%;
     margin-bottom: 10%;
-
     /* background-color: yellow; */
 
     
@@ -29,15 +28,13 @@
 .sub-section-1{
     font-size: 20px;
     color: #C4C4C4;
-    
     /* background-color: rebeccapurple; */
 }
 .sub-section-2{
     font-size: 60px;
-    font-family:'Pharma-Bold';
-    src: local('Pharma-Bold'), url(../../../Componets/assets/fonts/Pharma-Bold.otf);
     margin-top: -10px;
-    /* background-color: rebeccapurple; */
+    font-weight: bolder;
+
 }
 .sub-section-3{
     font-size: 15px;
@@ -49,13 +46,21 @@
     letter-spacing: 1px;
     margin-bottom: 60px;
     /* background-color: red; */
-    
-
-
     /* margin-top: 0%; */
     /* background-color: rebeccapurple; */
 }
 .logo-style-wambaa{
     width: 90%;
+}
+
+.image-container{
+    /* background-color: rgb(255, 111, 0); */
+    width: 792px;
+    height: 761px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
