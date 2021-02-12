@@ -1,7 +1,7 @@
 .Home {
     display: flex;
     height: 100vh;
-    background-color: white;
+    background-color: rgb(126, 71, 255);
     color: black;
     justify-content: center;
 }

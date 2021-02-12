@@ -2,24 +2,21 @@
 .nav-container{
  display: flex;
  justify-content: space-between;
- align-items: center;
+ padding-right: 10px;
+ padding-left: 10px;
  min-height: 10vh;
- background-color: hsl(0, 0%, 100%);
- border-bottom: 0.30px solid #e2e2e2;
- /* font-weight: bold; */
-
+ background-color: #191919;
+ color: white;
 }
 
 
 .list-style {
-    width: 40%;
     display: flex;
-    list-style: none;
-    align-items: center;
+    width: 40%;
+    flex-flow: row wrap;
     justify-content: space-around;
-    /* padding: 30px; */
-    /* cursor: pointer; */
-
+    align-items: center;
+    list-style: none;
 }
 
 

@@ -6,10 +6,12 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 function Navigation() {
     return (
-        <nav className="nav-container">
+        <nav className="nav-container"
+        >
             <Logo/>
-            <ul className="list-style">
-
+            <ul 
+            className="list-style"
+            >
                 <li>
                 <Link
                 activeClass="active"

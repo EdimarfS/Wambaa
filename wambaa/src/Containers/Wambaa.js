@@ -6,12 +6,6 @@ import Home from '../Pages/Home/Home';
 import Servicos from '../Pages/Servicos/Servicos';
 import SobreNos from '../Pages/SobreNos/SobreNos';
 
-    {/* <Switch>        
-    <Route path="/" exact component={Home}/>
-    <Route path="/servicos" exact component={Servicos}/>
-    <Route path="/sobreNos"  component={SobreNos}/>
-    <Route path="/contactos"  component={Contactos}/>
-</Switch> */}
 function Wambaa() {
     return (
         <Router>
@@ -20,8 +14,8 @@ function Wambaa() {
                 <Servicos/>
                 <SobreNos/>
                 <Contactos/>
-
         </Router>
+
     )
 }
 

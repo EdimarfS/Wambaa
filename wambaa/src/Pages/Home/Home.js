@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div>
         <main className="Home">   
-            <Details/>
+            {/* <Details/> */}
         </main>
         </div>
     )

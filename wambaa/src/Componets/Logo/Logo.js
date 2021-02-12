@@ -4,10 +4,8 @@ import logo from '../assets/Wambaa_logo_logotype_monochrome_positive.png'
 
 function Logo() {
     return (
-        <div>
-            <img 
-            className="logo-style"
-            src={logo} alt="Logo" />
+        <div className="logo-style">
+            <p>Wambaa</p>
         </div>
     )
 }
