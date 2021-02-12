@@ -1,10 +1,11 @@
 import React from 'react';
+import Details from './Details/Details';
 import './SobreNos.css'
 
 function SobreNos() {
     return (
         <main className="SobreNos">
-            <p>Sobre Nos</p>
+            <Details/>
         </main>
     )
 }
