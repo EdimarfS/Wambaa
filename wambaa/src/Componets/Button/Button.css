@@ -1,5 +1,18 @@
-.btn-style{
+.btn-1{
+    justify-content: center;
+    background-color: #6A6A6A;
+    width: 260px;   
+    height: 60px;
+    border-radius: 50px;
+    border: 0;
+    /* font-weight: bold; */
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
 
+.btn-2{
     justify-content: center;
     background-color: #FFBE34;
     width: 260px;   

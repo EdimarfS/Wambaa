@@ -1,11 +1,11 @@
 .home-details-container {
     display: flex;
     /* background-color:red; */
-    flex-flow: row wrap;
-    width:70%;
+    width:90%;
     justify-content:space-around;
     text-align: center;
     color: white;
+    align-items: center;
 }
 
 .home-details-container div {
@@ -27,27 +27,34 @@
 }
 
 .sub-section-1{
-    font-size: 30px;
+    font-size: 20px;
     color: #C4C4C4;
     
     /* background-color: rebeccapurple; */
 }
 .sub-section-2{
-    font-size: 50px;
+    font-size: 60px;
     font-family:'Pharma-Bold';
     src: local('Pharma-Bold'), url(../../../Componets/assets/fonts/Pharma-Bold.otf);
+    margin-top: -10px;
     /* background-color: rebeccapurple; */
 }
 .sub-section-3{
-    font-size: 20px;
+    font-size: 15px;
     flex-flow: row wrap;
     text-align: center;
-    width: 74%;
+    /* width: 74%; */
     color: #C4C4C4;
+    margin-top: -47px;
+    letter-spacing: 1px;
+    
     /* background-color: red; */
     
 
 
     /* margin-top: 0%; */
     /* background-color: rebeccapurple; */
+}
+.logo-style-wambaa{
+    width: 90%;
 }
