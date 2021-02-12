@@ -6,57 +6,20 @@ import shopLady from '../../../Componets/assets/animations/lf30_editor_xysvm7qq.
 import Button from '../../../Componets/Button/Button';
 
 export default function Details() {
-    const defaultOptions = {
-        loop: false,
-        autoplay: false, 
-        animationData: shopLady,
-        rendererSettings: {
-          preserveAspectRatio: 'xMidYMid slice'
-        }
-      };
+
     return (
-        <div className="details-container">
-            <div className="logo-container">
-            <Lottie 
-              options={defaultOptions}
-              height={500}
-              width={580}
-              />
+        <div className="home-details-container">
+          <div>
+            <p className="sub-section-1">Seja bem-vindo ao Wambaa</p>
+            <p className="sub-section-2">Compre rápido e fácil</p>
+            <p className="sub-section-3">Avisaremos quando estivermos prontos, para receber nossas novidades em primeira 
+mão, deixe os seu email à baixo.</p>
+          </div>
 
-            </div>
-            <div className="description-container">
-                <p className="welcome-text">Bem-vindos ao Wambaa</p>
-                <p className="header-1">Simples e rápido para 
-                <em
-                style={{ color:'grey', fontSize:30}}
-                
-            
-                > comprar
-                </em>
-                </p>
-                <p className="description-text">
-                Contrary to popular belief, 
-                Lorem Ipsum is not simply random text. 
-                Contrary to popular belief, 
-                Lorem Ipsum is not simply random text. 
-                Contrary to popular belief, 
-                Lorem Ipsum is not simply random text. 
-                Contrary to popular belief, 
-                Lorem Ipsum is not simply random text. 
-                Contrary to popular belief, 
-                Lorem Ipsum is not simply random text. 
-                Contrary to popular belief, 
-                Lorem Ipsum is not simply random text. 
-              </p>
-            <div className="btn-container"> 
-              <Button
-              label="Contactos"
-              />
-            </div>
-            </div>
-            
-
-
+          <div>
+            <p>Logo</p>
+          </div>
+  
         </div>
     )
 }
