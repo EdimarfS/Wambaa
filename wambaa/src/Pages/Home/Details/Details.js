@@ -14,9 +14,13 @@ export default function Details() {
             <p className="sub-section-2">Compre rápido e fácil</p>
             <p className="sub-section-3">Avisaremos quando estivermos prontos, para receber nossas novidades em primeira 
 mão, subescreva-se à baixo.</p>
+
+
             <Button
-            label="Registre-se"
+            label="Subescreva-se"
             />
+
+
           </div>
 
           <div >
