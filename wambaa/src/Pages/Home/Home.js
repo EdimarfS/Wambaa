@@ -1,12 +1,12 @@
 import React from 'react';
-import Details from './Details/Details';
+import DetailsHome from './Details/DetailsHome';
 import './Home.css';
 
 export default function Home() {
     return (
         <div>
         <main className="Home">   
-            <Details/>
+            <DetailsHome/>
         </main>
         </div>
     )

@@ -1,11 +1,11 @@
 import React from 'react';
-import Details from './Details/Details';
+import DetailsServicos from './Details/DetailsServicos';
 import './Servicos.css';
 
 export default function Servicos() {
     return (
         <div className="Servicos">
-            <Details/>
+            <DetailsServicos/>
         </div>
     )
 }

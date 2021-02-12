@@ -1,10 +1,10 @@
 import React from 'react';
-import './Details.css';
+import './DetailsServicos.css';
 
 export default function Details() {
     return (
         <div className="Details">
-            <p>Sobre Nós</p>
+            <p className="category-servicos">Serviços</p>
         </div>
     )
 }

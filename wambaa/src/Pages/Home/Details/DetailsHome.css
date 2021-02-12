@@ -1,4 +1,4 @@
-.home-details-container {
+.Details-home {
     display: flex;
     /* background-color:red; */
     width:90%;
@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.home-details-container div {
+.Details-home div {
     display: flex;
     flex-direction: column;
     align-items: center;
