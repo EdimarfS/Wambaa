@@ -13,12 +13,12 @@ export default function Details() {
             <p className="sub-section-1">Seja bem-vindo ao Wambaa</p>
             <p className="sub-section-2">Compre rápido e fácil</p>
             <p className="sub-section-3">Avisaremos quando estivermos prontos, para receber nossas novidades em primeira 
-mão, subescreva-se à baixo.</p>
+mão, fique ligado no nosso website e nas nossas rede sociais.</p>
 
 
-            <Button
+            {/* <Button
             label="Subescreva-se"
-            />
+            /> */}
 
 
           </div>

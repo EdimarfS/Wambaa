@@ -3,6 +3,7 @@ import './Footer.css';
 import Facebook from '../../Componets/assets/icons/facebook.png'
 import Instagram from '../../Componets/assets/icons/instagram.png'
 import Twitter from '../../Componets/assets/icons/twitter.png'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Footer() {
     return (

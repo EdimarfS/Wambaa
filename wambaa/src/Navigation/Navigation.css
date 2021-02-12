@@ -13,12 +13,48 @@
 .list-style {
     display: flex;
     width: 40%;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+    /* flex-flow: row wrap; */
+    justify-content: space-around;
     list-style: none;
     font-size: 20px;
+
 }
+
+.list-style li {
+    display: flex;
+    padding: 30px;
+    /* height: 100%; */
+    /* flex-flow: row wrap; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* list-style: none; */
+    /* font-size: 20px; */
+    justify-items: center;
+    align-items: center; 
+    align-content: center;
+    text-align: center;
+    /* background-color: #FFBE34; */
+    /* border-bottom: 5px solid #FFBE34; */
+
+} 
+
+.list-style li:hover{
+    display: flex;
+    padding: 30px;
+    /* height: 100%; */
+    /* flex-flow: row wrap; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* list-style: none; */
+    /* font-size: 20px; */
+    justify-items: center;
+    align-items: center; 
+    align-content: center;
+    text-align: center;
+    /* background-color: #FFBE34; */
+    border-bottom: 5px solid #FFBE34;
+
+} 
 
 
 

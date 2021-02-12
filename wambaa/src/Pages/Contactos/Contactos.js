@@ -1,5 +1,5 @@
 import React from 'react';
-import Details from '../Servicos/Details/Details';
+import Details from './Details/Details';
 import './Contactos.css'
 
 export default function Contactos() {

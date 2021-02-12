@@ -12,7 +12,7 @@ function Navigation() {
             <ul 
             className="list-style"
             >
-                <li>
+          
                 <Link
                 activeClass="active"
                 to="Servicos"
@@ -21,13 +21,15 @@ function Navigation() {
                 offset={0}
                 duration={500}
                  >
+                <li>
                     Serviços
-                </Link>
+                
                 </li>
+                </Link>
 
 
  
-                <li>
+              
                 <Link
                 activeClass="active"
                 to="SobreNos"
@@ -36,11 +38,12 @@ function Navigation() {
                 offset={0}
                 duration={500}
                  >
+                    <li>
                     Sobre nós
+                    </li>
                 </Link>
                   
-                </li>
-                <li className="contacts-style"> 
+
                 <Link
                 activeClass="active"
                 to="Contactos"
@@ -49,10 +52,12 @@ function Navigation() {
                 offset={0}
                 duration={500}
                  >
+                    <li className="contacts-style"> 
                     Contactos
+                    </li>
                 </Link>
                     
-                </li>
+         
 
             </ul>
         </nav>
